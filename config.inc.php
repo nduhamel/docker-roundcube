@@ -20,5 +20,5 @@ $config['smtp_port'] = 587;
 $config['smtp_user'] = '%u';
 $config['smtp_pass'] = '%p';
 
-$config['plugins'] = array('carddav', 'managesieve');
+$config['plugins'] = array('carddav', 'managesieve', 'identity_smtp');
 if(getenv('ROUNDCUBE_USER_FILE')) $config['plugins'][] = 'password';
