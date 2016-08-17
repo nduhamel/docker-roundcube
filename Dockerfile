@@ -1,5 +1,5 @@
 FROM robbertkl/php
-MAINTAINER Robbert Klarenbeek <robbertkl@renbeek.nl>
+MAINTAINER Nicolas Duhamel <nicolas@jombi.fr>
 
 # Change NGINX document root
 ENV DOCUMENT_ROOT=/var/www/public_html
